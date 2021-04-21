@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+
 html,
 body,
 div,
@@ -123,8 +126,51 @@ table {
   border-spacing: 0;
 }
 
+// Colors //
+:root {
+  --color-first: #0a0c1b;
+  --color-second: #1c1938;
+  --color-third: #ab66da;
+  --color-text: #9492a9;
+}
+
 // background page //
 
 body {
-  background-color: #11111d;
+  background-color: var(--color-first);
+  overflow: hidden;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-1 {
+  background-color: var(--color-second);
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  color: var(--color-text);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.container-info {
+  display: flex;
+  justify-content: space-evenly;
+
+  .number {
+    font-size: 25px;
+    font-family: "Inter", sans-serif;
+    color: var(--color-text);
+  }
 }
