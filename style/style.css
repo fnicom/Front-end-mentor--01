@@ -164,7 +164,7 @@ main {
 }
 
 .section-1 .img-content {
-  background: url("/images/image-header-desktop.jpg") no-repeat center/cover;
+  background: url("images/image-header-desktop.jpg") no-repeat center/cover;
   border-radius: 0px 10px 10px 0px;
   height: 400px;
   width: 500px;
@@ -323,9 +323,5 @@ main {
 .container-info .templates {
   margin-top: 5%;
   margin-bottom: 5%;
-}
-
-.container-info .title {
-  margin-top: 5%;
 }
 /*# sourceMappingURL=style.css.map */
