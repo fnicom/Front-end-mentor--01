@@ -148,6 +148,7 @@ main {
 }
 
 .section-1 {
+  margin-top: 20%;
   background-color: var(--color-second);
   display: flex;
 
@@ -155,7 +156,7 @@ main {
   border-radius: 10px;
 
   .img-content {
-    background: url("images/image-header-desktop.jpg") no-repeat center/cover;
+    background: url("/images/image-header-desktop.jpg") no-repeat center/cover;
     border-radius: 0px 10px 10px 0px;
     height: 400px;
     width: 500px;
