@@ -243,4 +243,21 @@ main {
   margin-left: 15%;
   margin-right: 15%;
 }
+
+@media only screen and (max-width: 768px) {
+  .section-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  img {
+    height: 250px;
+    width: 300px;
+    border: 5%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
