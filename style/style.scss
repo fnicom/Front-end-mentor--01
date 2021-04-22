@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap%27");
 
 html,
 body,
@@ -155,22 +155,64 @@ main {
   margin-top: 5%;
   margin-bottom: 10%;
   color: var(--color-text);
+  border-radius: 10px;
+
+  img {
+    border-radius: 0px 10px 10px 0px;
+  }
 }
 
 .content {
+  width: 540px;
+  height: 446px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+
+  h1 {
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 30px;
+    color: #fff;
+
+    .roxo {
+      color: var(--color-third);
+    }
+  }
+
+  .text-info {
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 12px;
+  }
 }
 
 .container-info {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-end;
+  margin-right: 10%;
 
   .number {
     font-size: 25px;
-    font-family: "Inter", sans-serif;
+    font-family: "Inter";
+    color: #fff;
+    font-weight: 700;
+    padding-bottom: 15%;
+  }
+
+  .text-info {
+    font-size: 12px;
+    font-family: "Inter";
     color: var(--color-text);
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+  }
+
+  .templates {
+    margin-left: 15%;
+    margin-right: 15%;
   }
 }
